@@ -223,9 +223,9 @@ textarea {
 .hero__button:hover {
   background-color: #188ce8;
 } */
-/* ----------------------------------------benefits */
+/* ----------------------------------------benefits---------------------------------------- */
 
-.section--pading-zero {
+/* .section--pading-zero {
   padding-top: 0px;
 }
 .feature-list__img {
@@ -290,9 +290,9 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--bgc-text-hero);
-}
+} */
 /* ------------------------------------comand-master--------------- */
-.comand-list {
+/* .comand-list {
   display: flex;
   margin: 0;
   padding-left: 0;
@@ -373,10 +373,10 @@ textarea {
   transition-duration: var(--transition-d);
   transition-timing-function: var(--transition-t);
   transition-property: fill;
-}
+} */
 
 /* ---------------------------------------regular-client-------------------- */
-.regular-client-list {
+/* .regular-client-list {
   display: flex;
   margin-right: -30px;
 }
@@ -425,11 +425,11 @@ textarea {
 }
 .mailtel__icons:hover {
   fill: var(--accent-color);
-}
+} */
 
 /* ----------------------------foter-------------- */
 
-.footer-list {
+/* .footer-list {
   list-style: none;
 }
 .foter {
@@ -498,9 +498,9 @@ textarea {
 }
 .colr-icn-img-ftr {
   fill: var(--bgc-text-hero);
-}
+} */
 /* -------------------------------------------------MODAL-WINDOW------------------ */
-
+/* 
 .backdrop {
   position: fixed;
   top: 0;
@@ -528,26 +528,7 @@ textarea {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-/* .mdl-close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  background: var(--bgc-text-hero);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  padding: 6px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-.mdl-close-btn:hover .mdl-close-btn__icon {
-  fill: var(--accent-color);
-  transition-duration: var(--transition-d);
-  transition-timing-function: var(--transition-t);
-} */
+
 .form__text-title {
   font-weight: bold;
   font-size: 20px;
@@ -669,30 +650,6 @@ textarea[id='text']::placeholder {
 .form__input-div {
   position: relative;
 }
-/* .form__enter-btn {
-  width: 200px;
-  height: 50px;
-  border: var(--bgc-text-hero);
-  border-radius: 4px;
-  padding: 10px 32px;
-  cursor: pointer;
-  color: var(--bgc-text-hero);
-  background-color: var(--accent-color);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  transition-property: background-color;
-  display: block;
-  margin: 30px auto;
-  margin-bottom: 0;
-  transition-duration: var(--transition-d);
-  transition-timing-function: var(--transition-t);
-  transition-property: background-color;
-}
-.form__enter-btn:hover {
-  background-color: #188ce8;
-} */
 
 .checkbox-input {
   position: absolute;
@@ -725,7 +682,7 @@ textarea[id='text']::placeholder {
 
 input::placeholder {
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 /* /------------------------------------PORTFOLIO-------------------------- */
 /* .active-button-portfolio {
   border: 1px solid transparent;
@@ -777,7 +734,7 @@ input::placeholder {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 } */
 /* ------------------------------------------------------------BLUE-OVERLAY--------------------- */
-.parents-overlay {
+/* .parents-overlay {
   position: relative;
   overflow: hidden;
 }
@@ -871,10 +828,10 @@ input::placeholder {
   border-color: #ececec;
   border-width: 1px;
   padding: 20px 24px 20px 24px;
-}
+} */
 /* ------------------------------------------footer-form-email------------------ */
 
-.form-subscription {
+/* .form-subscription {
   margin-left: auto;
 }
 .form-subscription__title {
@@ -900,34 +857,7 @@ input::placeholder {
   border-radius: 4px;
   color: var(--accent-color);
 }
-/* .form-subscription__btn-entr {
-  width: 200px;
-  height: 50px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  padding: 0;
-  cursor: pointer;
-  color: var(--bgc-text-hero);
-  background-color: var(--accent-color);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  transition-property: background-color;
-  display: block;
-  margin: 30px auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  transition-duration: var(--transition-d);
-  transition-timing-function: var(--transition-t);
-  transition-property: background-color;
-  margin-left: 15px;
-  display: flex;
-}
-.form-subscription__btn-entr:hover {
-  background-color: #188ce8;
-} */
+
 .icon-send {
   margin-left: 10px;
-}
+} */
