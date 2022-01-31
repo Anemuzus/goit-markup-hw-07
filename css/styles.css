@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #212121;
   --accent-color: #2196f3;
   --bgc-text-hero: #fff;
@@ -9,14 +9,14 @@
   --icon-color: #afb1b8;
   --transition-d: 250ms;
   --transition-t: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--bgc-text-hero);
   color: var(--primary-text-color);
-}
-h1,
+} */
+/* h1,
 h2,
 h3,
 p,
@@ -33,17 +33,17 @@ a {
 
 textarea {
   resize: none;
-}
-.section__title {
+} */
+/* .section__title {
   font-size: 36px;
   line-height: 42px;
   color: var(--zaholovokh2);
   margin-bottom: 50px;
   text-align: center;
-}
+} */
 
 /*------------------------------------------------------ header------------------------ */
-.list {
+/* .list {
   list-style: none;
 }
 
@@ -108,10 +108,10 @@ textarea {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-}
+} */
 
 /* ------------------------------------подчеркивание-елемента------------ */
-.site-nav__active-link.site-nav--size-p::after {
+/* .site-nav__active-link.site-nav--size-p::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -147,9 +147,9 @@ textarea {
 }
 .site-nav__link:focus .mailtel__icons {
   fill: var(--accent-color);
-}
+} */
 /* -----------------------------------хедер nav правый верх ----------------------*/
-.mailtel {
+/* .mailtel {
   display: flex;
   margin-left: auto;
 }
@@ -171,10 +171,10 @@ textarea {
   transition-duration: var(--transition-d);
   transition-timing-function: var(--transition-t);
   transition-property: color;
-}
+} */
 
 /* -------------------------------------------hero--------------------------------- */
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   margin-top: 0;
@@ -190,13 +190,7 @@ textarea {
   background-position: center;
   background-size: cover;
 }
-/* .overlay {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
+
 .hero__title {
   font-weight: 900;
   font-size: 44px;
@@ -208,11 +202,11 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   letter-spacing: 0.06em;
-}
+} */
 
 /* ----------------------------------------button--------------------------- */
 
-.hero__button {
+/* .hero__button {
   border-radius: 4px;
   padding: 10px 32px;
   cursor: pointer;
@@ -228,7 +222,7 @@ textarea {
 }
 .hero__button:hover {
   background-color: #188ce8;
-}
+} */
 /* ----------------------------------------benefits */
 
 .section--pading-zero {
@@ -244,7 +238,6 @@ textarea {
   align-items: center;
 }
 
-/* ---------управление Дисплей Флексом на списках,кроме Хедера и Футера */
 .feature-list {
   display: flex;
   margin: 0;
@@ -507,8 +500,7 @@ textarea {
   fill: var(--bgc-text-hero);
 }
 /* -------------------------------------------------MODAL-WINDOW------------------ */
-.form-box {
-}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -536,7 +528,7 @@ textarea {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.mdl-close-btn {
+/* .mdl-close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -555,7 +547,7 @@ textarea {
   fill: var(--accent-color);
   transition-duration: var(--transition-d);
   transition-timing-function: var(--transition-t);
-}
+} */
 .form__text-title {
   font-weight: bold;
   font-size: 20px;
@@ -677,7 +669,7 @@ textarea[id='text']::placeholder {
 .form__input-div {
   position: relative;
 }
-.form__enter-btn {
+/* .form__enter-btn {
   width: 200px;
   height: 50px;
   border: var(--bgc-text-hero);
@@ -700,7 +692,7 @@ textarea[id='text']::placeholder {
 }
 .form__enter-btn:hover {
   background-color: #188ce8;
-}
+} */
 
 .checkbox-input {
   position: absolute;
@@ -735,7 +727,7 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 /* /------------------------------------PORTFOLIO-------------------------- */
-.active-button-portfolio {
+/* .active-button-portfolio {
   border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
@@ -753,14 +745,14 @@ input::placeholder {
 .active-button-portfolio:hover {
   box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
     0px 2px 2px rgb(0 0 0 / 12%);
-}
-.filter-list-button__block {
+} */
+/* .filter-list-button__block {
   margin-right: 8px;
 }
 .filter-list-button__block:last-child {
   margin-right: 0;
-}
-.filter-list-button__button {
+} */
+/* .filter-list-button__button {
   border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
@@ -781,9 +773,9 @@ input::placeholder {
   border-radius: 4px;
   background-color: var(--accent-color);
   color: var(--bgc-text-hero);
-  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
-    0px 2px 2px rgb(0 0 0 / 12%);
-}
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+} */
 /* ------------------------------------------------------------BLUE-OVERLAY--------------------- */
 .parents-overlay {
   position: relative;
@@ -847,11 +839,15 @@ input::placeholder {
 .flex-container__element:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.flex-container__link:hover,
+.flex-container__link:hover {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .flex-container__link:focus {
   display: block;
-  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
-    1px 4px 6px rgb(0 0 0 / 16%);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .discription-card-portfolio__name {
@@ -904,7 +900,7 @@ input::placeholder {
   border-radius: 4px;
   color: var(--accent-color);
 }
-.form-subscription__btn-entr {
+/* .form-subscription__btn-entr {
   width: 200px;
   height: 50px;
   align-items: center;
@@ -931,7 +927,7 @@ input::placeholder {
 }
 .form-subscription__btn-entr:hover {
   background-color: #188ce8;
-}
+} */
 .icon-send {
   margin-left: 10px;
 }
