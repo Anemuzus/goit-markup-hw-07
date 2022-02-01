@@ -19,9 +19,15 @@
   transition-timing-function: var(--transition-t);
   transition-property: border-color;
 }
-.regular-client-list__link:focus,
-.regular-client-list__link:hover {
-  border-color: var(--accent-color);
+.regular-client-list__link {
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+.regular-client-list__link {
+  &:hover {
+    border-color: var(--accent-color);
+  }
 }
 
 .regular-client-list__icon {
@@ -30,12 +36,20 @@
   transition-timing-function: var(--transition-t);
   transition-property: fill;
 }
-.regular-client-list__icon:hover {
-  fill: var(--accent-color);
+.regular-client-list__icon {
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
-.regular-client-list__link:hover .regular-client-list__icon,
-.regular-client-list__link:focus .regular-client-list__icon {
-  fill: var(--accent-color);
+.regular-client-list__link {
+  &:hover .regular-client-list__icon {
+    fill: var(--accent-color);
+  }
+}
+.regular-client-list__link {
+  &:focus .regular-client-list__icon {
+    fill: var(--accent-color);
+  }
 }
 
 .mailtel__icons {
@@ -45,6 +59,8 @@
   transition-timing-function: var(--transition-t);
   transition-property: fill;
 }
-.mailtel__icons:hover {
-  fill: var(--accent-color);
+.mailtel__icons {
+  &:hover {
+    fill: var(--accent-color);
+  }
 }

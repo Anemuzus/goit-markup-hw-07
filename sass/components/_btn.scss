@@ -33,10 +33,14 @@
   align-items: center;
   cursor: pointer;
 }
-.mdl-close-btn:hover .mdl-close-btn__icon {
-  fill: var(--accent-color);
-  transition-duration: var(--transition-d);
-  transition-timing-function: var(--transition-t);
+.mdl-close-btn {
+  &:hover {
+    .mdl-close-btn__icon {
+      fill: var(--accent-color);
+      transition-duration: var(--transition-d);
+      transition-timing-function: var(--transition-t);
+    }
+  }
 }
 
 .form__enter-btn {
@@ -142,12 +146,23 @@
   transition-timing-function: var(--transition-t);
   transition-property: border, border-radius, background-color, color, box-shadow;
 }
-.filter-list-button__button:hover,
-.filter-list-button__button:focus {
-  border: 1px solid transparent;
-  border-radius: 4px;
-  background-color: var(--accent-color);
-  color: var(--bgc-text-hero);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+.filter-list-button__button {
+  &:hover {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    color: var(--bgc-text-hero);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+.filter-list-button__button {
+  &:focus {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    color: var(--bgc-text-hero);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
